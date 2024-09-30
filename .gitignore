@@ -1,0 +1,51 @@
+# Ignore Python bytecode files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore environment files
+env/
+venv/
+*.env
+*.venv
+
+# Ignore PyCharm specific files
+.idea/
+*.iml
+
+# Ignore virtual environment folder
+.venv/
+
+# Ignore Jupyter Notebook outputs (optional if you don't want to include notebook outputs)
+*.ipynb
+
+# Ignore log files
+logs/
+*.log
+
+# Ignore compiled code and cache
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+*.so
+
+# Ignore ONNX files
+*.onnx
+
+# Ignore VS Code settings (optional)
+.vscode/
+
+# Ignore macOS system files
+.DS_Store
+
+# Ignore unnecessary files created by JupyterLab or notebooks
+node_modules/
+yarn.lock
+
+# Ignore any hidden files that PyCharm might generate
+*.swp
